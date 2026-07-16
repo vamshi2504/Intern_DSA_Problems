@@ -1,6 +1,6 @@
 /*
 Brute Force Approach:
-(though we can use 2 for loops, I tried it using while inside for)
+(though we can use 2 for loops, I tried it using while inside for using a 2 pointer approach)
 - Traverse every element in the array.
 - For each element, compare it with every other element.
 - If the sum of two different indices equals the target, return those indices.
