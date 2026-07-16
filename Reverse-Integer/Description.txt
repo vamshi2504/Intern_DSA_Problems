@@ -1,0 +1,23 @@
+Reverse Integer
+
+Given a 32-bit signed integer x, return the integer formed by reversing its decimal digits.
+
+If the reversed value falls outside the signed 32-bit integer range [-2,147,483,648, 2,147,483,647], return 0 instead.
+
+The sign of the number should be preserved. For example, a negative input should still be negative after reversing the digits.
+
+Examples:
+
+Input: x = 123
+Output: 321
+
+Input: x = -123
+Output: -321
+
+Input: x = 120
+Output: 21
+
+Input: x = 1534236469
+Output: 0
+
+This problem tests digit manipulation, handling of negative values, and overflow checks.
