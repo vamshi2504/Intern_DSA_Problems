@@ -1,0 +1,17 @@
+Longest Common Prefix
+
+Given an array of strings, return the longest prefix shared by every string in the array.
+
+If there is no common prefix, return an empty string.
+
+A prefix is a substring that begins at the first character of a string.
+
+Examples:
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+
+This problem is often solved by comparing characters across all strings until a mismatch is found.
